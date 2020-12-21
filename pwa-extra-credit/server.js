@@ -4,13 +4,16 @@ const htmlRoutes = require("./routes/html-routes");
 const db = require("./models");
 const seed = require("./utils/seed");
 const errorHandler = require("./utils/errorHandler");
+const compression = require("compression");
 
 // Set Port
 const PORT = process.env.PORT || 3000;
 const app = express();
 
-// Middleware handling
+// compression
+app.use(compression());
 
+// Middleware handling
 app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
