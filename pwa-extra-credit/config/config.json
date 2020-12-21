@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": "password",
-    "database": "extra_credit_db",
-    "host": "127.0.0.1",
+    "username": "arx8hfeufhfxeton",
+    "password": "w9p7il0h220i9hth",
+    "database": "imptgj0c3yxzv3e8",
+    "host": "dt3bgg3gu6nqye5f.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   },
   "test": {
