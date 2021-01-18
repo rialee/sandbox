@@ -14,7 +14,7 @@ function App() {
       {/* evaluate if logged in from state, if loged in display first message, if not, show second */}
 
       { state.loggedIn ? <Authenticated /> : <UnAuthenticated />}
-
+      
     </div>
   );
 }

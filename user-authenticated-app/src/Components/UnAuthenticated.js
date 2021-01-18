@@ -1,7 +1,6 @@
 import React from "react";
 import { useGlobalContext } from "../utils/GlobalContext"
 
-
 const UnAuthenticated = () => {
 
     const state = useGlobalContext();
